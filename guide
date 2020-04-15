@@ -1,0 +1,37 @@
+1. Learn to Dig
+2. Go Back in Time you can get tons of perspective by reading through issues, pull requests, and code reviews
+3. Read the Specs
+4. Think of Comments as Hints
+5. Find Main
+6. Notice Style
+7. Expect to Find Garbage
+8. Don’t Get Lost
+git log -p
+git log | grep someFunction -C 3  (-C 3 will show your matches with three lines of context).
+git blame to figure out the author and track him or her down for questioning.
+
+
+responsibility. When you have responsibility for something, you should be prepared to be held accountable for it.
+initiative and taking care of your stuff. Try not to leave “broken windows” unrepaired. When you find that kind of code, fix it up as soon as possible.
+Take the initiative, be the catalyst Be a catalyst for change. There also might be times when you know that either something is all good or something needs to actually get done.
+basic fundamentals that we often forget as programmers.
+Clean code DRY principle (Don’t Repeat Yourself).Duplicate code will make maintaining your code very hard
+Find the correct tools
+Don’t program by coincidence Rely only on things you are sure of.
+Unit test Unit testing will help you be confident that your piece of code is truly done.
+Taking ownership
+
+
+I think this is a very personal answer of what I seek out in a developer:
+
+Ability to communicate effectively. This means the ability to communicate his/her ideas through code, ability to communicate his/her ideas to other team members, ability to work well with other team members, etc.
+
+Passion for learning and improving
+
+Passion for writing good, maintainable and scalable code
+
+Ability to learn fast
+
+Independent thinking
+
+Enjoys tackling problems that he/she has never come across

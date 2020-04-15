@@ -1,0 +1,53 @@
+html{
+  font-family: inter;
+}
+.navbar-header{
+  color:hsl(0, 0%, 100%);
+}
+card-heading{
+  font-size: 14px;
+  font-weight: 700;
+}
+.custom-switch .custom-control-label::before{
+  width: 2.25rem;
+}
+.custom-switch .custom-control-input:checked~.custom-control-label::after{
+  transform: translateX(1.25rem);
+}
+ .custom-switch .custom-control-input:checked~.custom-control-label::after{
+   /* background-color: hsl(232, 19%, 15%); */
+   border:none;
+   /* background-image: hsl(210, 78%, 56%); */
+ }
+ .custom-switch .custom-control-label::after{
+   border:none;
+   background-color: hsl(228, 28%, 20%);
+ }
+ .custom-control-label::before{
+   /* position: absolute; */
+   border:none;
+   background-image: linear-gradient(to right, hsl(146, 68%, 55%), hsl(210, 78%, 56%)) !important;
+   /* color:hsl(0, 0%, 100%); */
+ }
+.cards{
+  background-color: hsl(228, 28%, 20%);
+}
+.fb-border{
+  border-top: 5px solid hsl(195, 100%, 50%);
+}
+.tw-border{
+  border-top: 5px solid hsl(203, 89%, 53%);
+}
+.ig-border {
+  height: 5px;
+  left: 698px;
+  top: 58%;
+  z-index: 99;
+  border-radius: 10px;
+  width:255px;
+  position: absolute;
+  background-image:linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+.yt-border{
+  border-top: 5px solid hsl(348, 97%, 39%);
+}
